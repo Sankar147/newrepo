@@ -2,9 +2,9 @@ version: 0.2
 
 env:
   parameter-store:
-    DOCKER_REGISTRY_USERNAME: dockerhub-username
-    DOCKER_REGISTRY_PASSWORD: dockerhub-password
-    DOCKER_REGISTRY_URL: dockerhub-url
+    DOCKER_REGISTRY_USERNAME: /myapp/username
+    DOCKER_REGISTRY_PASSWORD: /myapp/password
+    DOCKER_REGISTRY_URL: /myapp/url
 phases:
   install:
     runtime-versions:
